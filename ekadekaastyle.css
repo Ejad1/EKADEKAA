@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('Polices/ballw___-webfont.woff2') format('woff2'),
+         url('Polices/ballw___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('Polices/dayrom__-webfont.woff2') format('woff2'),
+         url('Polices/dayrom__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background: linear-gradient(white, silver)  no-repeat;
+    font-family: Arial;
+}
+
+header
+{
+    font-family: 'Verdana';
+    text-decoration: none;
+}
+
+nav
+{
+    font-size: 20px;
+    background-color: #f0f0f0ff;
+}
+
+nav ul
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav > ul::after
+{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+p{
+    width: 1200px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit
+    centré avec auto */
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.sous
+{
+    display: none;
+}
+
+nav ul li:hover .sous
+{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    padding: 0px;
+}
+
+/* style sur le nom du groupe */
+#nom
+{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    font-size: 150px;
+    text-align: center;
+}
+
+#D
+{
+    color: red;
+    text-shadow: -15px 10px 10px #760001;
+}
+
+#E
+{
+    color: blue;
+    text-shadow: -15px 10px 10px #010076;
+}
+
+#E2
+{
+    color: green;
+    text-shadow: -15px 10px 10px #004400;
+}
+/* fin du style sur le nom du groupe */
+
+
+a:hover
+{
+    text-decoration: underline;
+    color: orangered;
+}
+
+#bienvenu
+{
+    height: 100px;
+    color: yellow;
+    background: linear-gradient(orange, red);
+}
+
+#soyez
+{
+    padding-top: 35px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+h3 > a
+{
+    text-decoration: none;
+}
+
+nav > ul > li > a
+{
+    padding: 20px, 30px;
+    text-decoration: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav > li > img
+{
+    height: 10px;
+}
+
+#image_du_groupe
+{
+    margin-top: 150px;
+    height: 400px;
+    border-radius: 5px;
+    background: url('river.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#groupe
+{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white;
+    font-size: 0.8em;
+
+}
+
+#qui
+{
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 100px;
+}
+
+.nous
+{
+    font-size: large;
+}
+
+div
+{
+    height: 2px;
+    background-color: blue;
+}
+
+#membres
+{
+    color: blue;
+    text-align: left;
+    margin-top: 75px;
+}
+
+#lebland
+{
+    float: left;
+}
+
+#pil
+{
+    color: rgb(105, 77, 25);
+}
+
+#réalisations
+{
+    margin-top: 75px;
+    text-align: left;
+    color: blue;
+}
+
+#rien
+{
+    height: -2px;
+    background-color: blue;
+}
+
+.description
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.article1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article
+{
+    vertical-align: top;
+    text-align: center;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#divers
+{
+    float: left;
+    color: blue;
+    font-size: 30px;
+}
+
+footer
+{
+    background: fixed, linear-gradient(silver ,black);
+}

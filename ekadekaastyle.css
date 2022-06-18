@@ -20,8 +20,48 @@
 
 body
 {
+    width: auto;
     background: linear-gradient(white, silver)  no-repeat;
     font-family: Arial;
+}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+
+    nav a
+    {
+    font-size: 1.1em;
+    }
+
+    nav a:hover
+    {
+    border-bottom: 0;
+    }
+
+    #bienvenu
+    {
+        display: none;
+    }
+
+    #image_du_groupe
+    {
+        display: none;
+    }
+
+    #qui
+    {
+        width: auto;
+    }
 }
 
 header
